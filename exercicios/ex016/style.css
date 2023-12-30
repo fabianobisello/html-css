@@ -1,0 +1,27 @@
+*{
+    background-color: greenyellow;
+}
+
+.basico{
+    color: blue;
+}
+
+.intermediario{
+    color: yellow;
+}
+
+.avancado{
+    color: yellowgreen;
+}
+
+#title{
+    color: white;
+    background-color: rgb(6, 80, 59);
+    text-align: center;
+    
+}
+
+.color{
+    background-color: rgb(255, 0, 242);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
