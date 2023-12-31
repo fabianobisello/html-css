@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 :root{
-    --cor0: #F2E6D8;
-    --cor1: #D9BBA9;
-    --cor2: #D9AF62;
-    --cor3: #8C683B;
-    --cor4: #735340;
+    --cor0: #C1D9D4;
+    --cor1: #8C8665;
+    --cor2: #BF8450;
+    --cor3: #8C452B;
+    --cor4: #59231E;
     --cor5: rgb(65, 47, 36);
 }
 
@@ -24,9 +24,14 @@ h1{
  
 }
 
+img{
+    width: 100%;
+
+}
+
 header{
     text-align: center;
-    background-image: linear-gradient(var(--cor1), var(--cor4));
+    background-image: linear-gradient(var(--cor2), var(--cor4));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -42,7 +47,7 @@ header p{
 
 nav{
     padding: 10px 20px;
-    background-image: linear-gradient(var(--cor4), var(--cor5));
+    background-image: linear-gradient(var(--cor2), var(--cor3));
     box-shadow: 1px 8px 18px rgba(4, 4, 4, 0.446);
     min-width: 280px;
     max-width: 1000px;
@@ -50,30 +55,33 @@ nav{
 }
 
 nav a{
-    color: var(--cor0);
+    color: rgb(252, 250, 230);
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
 }
 
 nav a:hover{
-    color: var(--cor2);
+    color: rgba(136, 146, 98, 0.486);
     background-color: var(--cor3);
     border-radius: 7px;
 }
 
 main{
-    background-color: rgb(255, 231, 199);
+    background-color: white;
     min-width: 280px;
     max-width: 1000px;
     padding: 20px;
     margin: auto;
     margin-bottom: 0px;
     box-shadow: 0px 8px 18px rgba(4, 4, 4, 0.446);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
 }
 
 main h1{
-    color: var(--cor5);
+    color: var(--cor4);
 }
 
 main p{
@@ -91,8 +99,8 @@ aside{
 
 
 aside h1{
-    background-image: linear-gradient(var(--cor4), var(--cor5));
-    padding: 3px;
+    background-image: linear-gradient(var(--cor2), var(--cor3));
+    padding: 5px;
     min-width: 280px;
     max-width: 1000px;
     color: rgb(252, 250, 230);
@@ -112,15 +120,11 @@ aside ul{
 }
 
 footer{
-    background-image: linear-gradient(var(--cor4), var(--cor5));
+    background-image: linear-gradient(var(--cor2), var(--cor3));
     padding: 10px 20px;
     text-align: center;
     color: rgb(252, 250, 230);
-    min-width: 280px;
-    max-width: 1000px;
-    margin: auto;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    margin-top: 20px;
 }
 
 footer a{
