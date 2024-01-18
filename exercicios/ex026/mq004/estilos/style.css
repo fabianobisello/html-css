@@ -18,6 +18,7 @@ body{
     background: black url('../imagens/back-phone.jpg') no-repeat;
     background-size: cover;
     background-position: center center;
+    margin-top: 20px;
 }
 
 h1{
@@ -29,11 +30,12 @@ h1{
 
 main{
     background-color: rgba(255, 255, 255, 0.825);
-    width: 80vw;
+    width: 400px;
     margin-top: 20px;
     margin: auto;
     border-radius: 10px;
     padding: 10px;
+    
 }
 
 img{
